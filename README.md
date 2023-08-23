@@ -2,7 +2,7 @@
 
 Aulas Dart / Flutter
 
-Conjunto de Aulas de DART para Desenvolvimento Multiplataforma
+Conjunto de Aulas de Dart para Desenvolvimento Multiplataforma
 
 # Aulas ministradas pelo Professor Rodrigo Bossini
 https://github.com/professorbossini
