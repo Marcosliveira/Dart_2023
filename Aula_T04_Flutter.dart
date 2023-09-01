@@ -30,8 +30,8 @@ void ex_03() {
     title: const Text("Minhas Imagens"),
   ),
   floatingActionButton: FloatingActionButton(
-    child: Icon(Icons.add),   // https://api.flutter.dev/flutter/material/Icons-class.html
-    onPressed: () {}
+    child: const Icon(Icons.add_a_photo),   // https://api.flutter.dev/flutter/material/Icons-class.html
+    onPressed: () => print('icon adicionado'),
       ),
     ),
   );
@@ -41,10 +41,6 @@ runApp(app);
 void ex_04() {
   var app = App();
   runApp(app);
-}
-
-void ex_05() {
-  
 }
 
 void main() {
