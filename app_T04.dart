@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
 
-class App extends StatelessWidget{
+// class App extends StatelessWidget{
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Minhas Imagens"),
-        ),
-        floatingActionButton: FloatingActionButton(
-          child: const Icon(Icons.add),
-          onPressed: () {
-            print("Estou no arquivo app.dart!");
-        },
-      ),
-    ),
-  );
-}
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         appBar: AppBar(
+//           title: const Text("Minhas Imagens"),
+//         ),
+//         floatingActionButton: FloatingActionButton(
+//           child: const Icon(Icons.add),
+//           onPressed: () {
+//             print("Estou no arquivo app.dart!");
+//         },
+//       ),
+//     ),
+//   );
+// }
+// }
 
 class AppState extends State<App>{
   int numeroImagens = 0;
@@ -30,14 +30,15 @@ class AppState extends State<App>{
           title: const Text("Minhas Imagens"),
         ),
         floatingActionButton: FloatingActionButton(
-          child: const Icon(Icons.add),
+          child: const Icon(Icons.add_a_photo),
           onPressed: () {
             //numeroImagens++;
             //print("Estou no arquivo app.dart!");
             setState(() => numeroImagens++);
+            print('ex05');
         },
       ),
-      body: Text('$numeroImagens'), //parâmetro entregue ao  construtor Scaffold
+      body: Text('$numeroImagens'),
     ),
   );
 }
