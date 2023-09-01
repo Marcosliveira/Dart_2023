@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'src/app.dart';
 
 void ex_01() {
   var app = MaterialApp(
@@ -37,9 +38,18 @@ void ex_03() {
 runApp(app);
 }
 
+void ex_04() {
+  var app = App();
+  runApp(app);
+}
+
+void ex_05() {
+  
+}
+
 void main() {
   //ex_01();
   //ex_02();
-  ex_03();
+  //ex_03();
+  ex_04();
 }
-
